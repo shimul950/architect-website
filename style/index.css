@@ -1,0 +1,58 @@
+/* work sens font from google */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:ital,wght@0,700;1,700&family=Work+Sans:wght@200;300;400;700;800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    font-size: 45px;
+    font-weight: 700px;
+    
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+}
+/* banner style */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700px;
+    color: var(--dark-01, #131313);
+}
+.banner-discription{
+    color: var(--dark-03, #727272);
+}
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+}
