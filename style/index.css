@@ -167,6 +167,18 @@ main{
 }
 
 
+footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 70px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+
+
 
 
 
@@ -199,7 +211,13 @@ main{
              position: static;
              max-width: 300px;
     }
-    
+    footer{
+        max-width: 300px;
+        margin: 0;
+        padding: 0;
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
 
 }
 /* tablet or medium devices */
@@ -207,8 +225,12 @@ main{
     header{
         padding: 50px;
     }
-    nav,.features,.sponsors-img-container{
+    nav,.features,.sponsors-img-container,.team{
         flex-direction: column;
+    }
+    footer{
+        margin-left: 70px;
+        max-width: 700px;
     }
     
 }
